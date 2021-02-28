@@ -149,7 +149,7 @@ footer a, p{
 
 /* responsive */
 
-@media only screen and (max-width: 1047px){
+@media only screen and (max-width: 1133px){
     .header__search li{
         margin-left: 30px;
     }
