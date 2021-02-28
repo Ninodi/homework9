@@ -6,7 +6,7 @@
     box-sizing: border-box;
     }
 
-@mixin rowSpaceBt{
+@mixin rowSpaceBt(){
     display: flex;
     flex-direction: row;
     justify-content: space-between;
