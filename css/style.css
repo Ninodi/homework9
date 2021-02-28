@@ -35,6 +35,9 @@
   
   .header__search a, .header__navbar a{
       font-size: 20px;
+      font-family: 'Archy EDT';
+      font-weight: 100;
+      font-style: normal;
       color: #707070;
   }
   
@@ -62,6 +65,9 @@
   main h1{
       margin-bottom: 70px;
       font-size: 40px;
+      font-family: 'Archy EDT';
+      font-weight: 100;
+      font-style: normal;
       color: #707070;
   }
   .article{
@@ -85,11 +91,17 @@
   
   .article_txt h3{
       font-size: 30px;
+      font-family: 'Archy EDT';
+      font-weight: 100;
+      font-style: normal;
       color: #707070;
   }
   
   .article_txt p{
       font-size: 18px;
+      font-family: 'Pierre Dingbats';
+      font-weight: 100;
+      font-style: normal;
       color: #707070;
   }
   .article_txt div {
@@ -98,12 +110,18 @@
   
   .article_txt a{
       font-size: 24px;
+      font-family: 'Archy EDT';
+      font-weight: 100;
+      font-style: normal;
       color: #707070;
   }
   .load {
       margin-bottom: 53px;
       text-align: center;
       font-size: 30px;
+      font-family: 'Archy EDT';
+      font-weight: 100;
+      font-style: normal;
   }
   
   .load  a{
@@ -139,11 +157,17 @@
   }
   footer h4{
       font-size: 20px;
+      font-family: 'Archy EDT';
+      font-weight: 100;
+      font-style: normal;
       color: #F2F2F2;
   }
   
   footer a, p{
       font-size: 13px;
+      font-family: 'Archy EDT';
+      font-weight: 100;
+      font-style: normal;
       color: #F2F2F2;
   }
   
