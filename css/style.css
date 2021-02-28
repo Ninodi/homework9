@@ -92,12 +92,14 @@ main h1{
     font-size: 18px;
     color: #707070;
 }
-.article_txt div{
+.article_txt div {
     text-align: end;
+}
+
+.article_txt a{
     font-size: 24px;
     color: #707070;
 }
-
 .load {
     margin-bottom: 53px;
     text-align: center;
@@ -145,7 +147,7 @@ footer a, p{
     color: #F2F2F2;
 }
 
-/* random */
+/* responsive */
 
 @media only screen and (max-width: 1078px){
     .header__navbar li{
@@ -211,6 +213,9 @@ footer a, p{
 }
 
 @media only screen and (max-width: 620px){
+    header .container{
+        padding: 0 27px;
+    }
     .no_display_img{
         display: none;
     }
@@ -219,7 +224,7 @@ footer a, p{
         display: block;
     }
     main h1{
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
     }
 
@@ -251,4 +256,5 @@ footer a, p{
         height: 240px;
     }
 }
+
 /*# sourceMappingURL=style.css.map */
