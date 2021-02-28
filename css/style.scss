@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    }
+
+@mixin rowSpaceBt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    .container{
+        margin: 0 auto;
+        padding: 0 36px;
+        max-width: 1640px;
+        width: 100%;
+    }
+
+    header{
+        @include rowSpaceBt();
+
+        nav{
+            @include rowSpaceBt();
+        }
+
+        &__navbar ul{
+            @include rowSpaceBt();
+        }
+
+        &__search ul{
+            @include rowSpaceBt();
+        }
+    }
